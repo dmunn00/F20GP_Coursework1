@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class movement : MonoBehaviour
 
-//code inspiration for movement and camera - https://www.youtube.com/watch?v=4HpC--2iowE
-//code inspiration for gravity and jmping - https://www.youtube.com/watch?v=_QajrabyTJc
+//code inspiration for movement and camera adapted from  - https://www.youtube.com/watch?v=4HpC--2iowE
+//code inspiration for gravity and jumping adapted from - https://www.youtube.com/watch?v=_QajrabyTJc
 //animation tutorial - https://www.youtube.com/watch?v=2_Hn5ZsUIXM
+//some of the lines of code involving some complex math and calculations were taken from these links and adpated to fit my game.
 
 //Player and zombie models + animations from miximo.
 {
@@ -113,6 +114,7 @@ public class movement : MonoBehaviour
 
             //math for calculating player rotation so the model faces the correct direction that the player is moving
             //atan2 function calculates the angle between x and z direction then convert to degrees.
+             
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + camera.eulerAngles.y;
             //makes rotations smooth 
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);

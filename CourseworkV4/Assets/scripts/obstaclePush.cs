@@ -5,7 +5,7 @@ using UnityEngine;
 public class obstaclePush : MonoBehaviour
 {
 
-//code inspiration - https://www.youtube.com/watch?v=3BOn2gs7z04&t=246s
+//some lines of code taken from - https://www.youtube.com/watch?v=3BOn2gs7z04&t=246s
 
 //player physics for objects like balls and walls to apply force to them.
 

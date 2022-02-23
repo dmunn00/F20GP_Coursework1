@@ -6,8 +6,8 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 
 //code inspiration 
-//- https://www.youtube.com/watch?v=xppompv1DBg
 // - https://www.youtube.com/watch?v=LIn2jOyOTKQ
+//- https://www.youtube.com/watch?v=xppompv1DBg
 // - https://www.youtube.com/watch?v=UjkSFoLxesw
 //navmesh wander - https://www.youtube.com/watch?v=jyMADpBEMFA
 
@@ -79,7 +79,7 @@ NavMeshAgent agent;
             
         }
     }
-    //gets a random location on the nav mesh within the walk radius 
+    //gets a random location on the nav mesh within the walk radius - link for code inspiration at top
     public Vector3 RandomLocation()
     {
         Vector3 finalPosition= Vector3.zero;

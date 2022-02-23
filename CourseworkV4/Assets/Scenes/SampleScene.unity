@@ -2303,7 +2303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -2373,11 +2373,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39b36a133f6bc41efb27297214681878, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.99
+      value: 1.98
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39b36a133f6bc41efb27297214681878, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 80.745
+      value: -16.16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39b36a133f6bc41efb27297214681878, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3506,7 +3506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -4855,7 +4855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -8200,7 +8200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -8461,7 +8461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -9819,7 +9819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -11699,7 +11699,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh88106
+  m_Name: pb_Mesh18516
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16057,7 +16057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -16198,7 +16198,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553895864}
-  m_LocalRotation: {x: 0.50712776, y: 0.0000000014538207, z: -8.5543617e-10, w: 0.86187094}
+  m_LocalRotation: {x: 0.5071277, y: -0.000000055999674, z: 0.000000032950393, w: 0.86187094}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -16784,7 +16784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -23701,7 +23701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801997232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.0224, y: -3.8838363, z: 6.550601}
+  m_LocalPosition: {x: -5.0224, y: -3.8838363, z: 7.04}
   m_LocalScale: {x: 0.9651344, y: 1, z: 0.25}
   m_Children: []
   m_Father: {fileID: 716350671}
@@ -23940,8 +23940,8 @@ MonoBehaviour:
   controller: {fileID: 815240434}
   camera: {fileID: 963194228}
   gravity: -20
-  lowGravMode: 0
   jumpHeight: 2
+  lowGravMode: 0
   doubleJumpHeight: 0
   groundCheck: {fileID: 423481022}
   groundDistance: 0.4
@@ -24727,7 +24727,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832257747}
-  m_LocalRotation: {x: 0.47548562, y: -0.000000014583337, z: 0.0000000078822096, w: 0.8797235}
+  m_LocalRotation: {x: 0.47548562, y: 0.000000014583337, z: -0.0000000078822096, w: 0.8797235}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -30427,7 +30427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -31853,8 +31853,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.5071278, y: 0.0000000014531595, z: -8.5431234e-10, w: 0.8618709}
-  m_LocalPosition: {x: 4.66, y: 24.99, z: 70.745}
+  m_LocalRotation: {x: 0.50712776, y: -0.00000005600016, z: 0.00000003295122, w: 0.8618709}
+  m_LocalPosition: {x: 4.66, y: 19.98, z: -26.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -31916,7 +31916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -32550,7 +32550,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996076589}
-  m_LocalRotation: {x: 0.49136683, y: -0.000000014985945, z: 0.000000008454644, w: 0.8709527}
+  m_LocalRotation: {x: 0.49136683, y: 0.000000014985945, z: -0.000000008454644, w: 0.8709527}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -32564,7 +32564,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh89408
+  m_Name: pb_Mesh19018
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -40551,7 +40551,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh89548
+  m_Name: pb_Mesh19084
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -41717,7 +41717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -48505,7 +48505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -55689,7 +55689,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh88504
+  m_Name: pb_Mesh18686
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -59563,7 +59563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -61039,7 +61039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -63681,7 +63681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795130761}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.66, y: 24.99, z: 70.745}
+  m_LocalPosition: {x: 4.66, y: 19.98, z: -26.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 553895866}
@@ -64270,7 +64270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -68481,7 +68481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -71296,7 +71296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -72234,7 +72234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -72495,7 +72495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
@@ -72775,7 +72775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32f96e5f9c0649fcbe9e1989542669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombieVisionRadius: 5
+  zombieVisionRadius: 8
   speed: 2
   wanderSpeed: 0.5
   walkRadius: 10
