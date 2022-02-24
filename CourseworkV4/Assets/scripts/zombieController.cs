@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+//
 [RequireComponent(typeof(NavMeshAgent))]
 
 //code inspiration 
 // - https://www.youtube.com/watch?v=LIn2jOyOTKQ
-//- https://www.youtube.com/watch?v=xppompv1DBg
+//main enemy movement code inspiration - https://www.youtube.com/watch?v=xppompv1DBg
 // - https://www.youtube.com/watch?v=UjkSFoLxesw
-//navmesh wander - https://www.youtube.com/watch?v=jyMADpBEMFA
+//navmesh enemy wander - https://www.youtube.com/watch?v=jyMADpBEMFA
 
 
 public class zombieController : MonoBehaviour
@@ -18,6 +19,7 @@ public class zombieController : MonoBehaviour
 private Animator animator;
 //how far the enemy can see.
 public float zombieVisionRadius = 5f;
+//movement speeds
 public float speed;
 public float wanderSpeed = 1f;
 //how far the enemy will wander 

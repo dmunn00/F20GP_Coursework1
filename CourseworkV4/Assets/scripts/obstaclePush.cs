@@ -5,7 +5,7 @@ using UnityEngine;
 public class obstaclePush : MonoBehaviour
 {
 
-//some lines of code taken from - https://www.youtube.com/watch?v=3BOn2gs7z04&t=246s
+//tutorial for code here - https://www.youtube.com/watch?v=3BOn2gs7z04&t=246s
 
 //player physics for objects like balls and walls to apply force to them.
 
@@ -29,7 +29,9 @@ private float forceMagnitude;
             forceDirection.y = 0;
             //normalize
             forceDirection.Normalize();
-            //apply the force instantly in the direction of movement at a specif position on the object . 
+            //apply the force instantly in the direction of movement at a specif position on the object .
+            //https://docs.unity3d.com/ScriptReference/Rigidbody.AddForceAtPosition.html 
+            //https://docs.unity3d.com/ScriptReference/ForceMode.Impulse.html
             rigidbody.AddForceAtPosition(forceMagnitude * forceDirection, transform.position, ForceMode.Impulse);
         }
     }

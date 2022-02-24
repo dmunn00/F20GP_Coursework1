@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class codeExplanationHelper : MonoBehaviour
 {
-
+    //Script prompt guide for demo 
     //I have provided reference links to all the inspiration for my code in the corresponding scripts 
 
     //player movement

@@ -5,12 +5,14 @@ using UnityEngine.UI;
 
 public class movement : MonoBehaviour
 
-//code inspiration for movement and camera adapted from  - https://www.youtube.com/watch?v=4HpC--2iowE
-//code inspiration for gravity and jumping adapted from - https://www.youtube.com/watch?v=_QajrabyTJc
+//character movement - https://docs.unity3d.com/ScriptReference/CharacterController.Move.html 
+//inspiration for movement and camera adapted from  - https://www.youtube.com/watch?v=4HpC--2iowE
+//inspiration for gravity and jumping adapted from - https://www.youtube.com/watch?v=_QajrabyTJc
 //animation tutorial - https://www.youtube.com/watch?v=2_Hn5ZsUIXM
-//some of the lines of code involving some complex math and calculations were taken from these links and adpated to fit my game.
+//some of the lines of code involving some complex math and calculations for the movement were taken 
+//from these above links and adpated to fit my game such as velocity, targetAngel, atan2. I fully understand the function of all the code. 
+//Player and zombie models + animations taken from miximo.com
 
-//Player and zombie models + animations from miximo.
 {
     //varaibles - animator, controller, camera
     private Animator animator;
@@ -114,9 +116,12 @@ public class movement : MonoBehaviour
 
             //math for calculating player rotation so the model faces the correct direction that the player is moving
             //atan2 function calculates the angle between x and z direction then convert to degrees.
+            //https://docs.unity3d.com/ScriptReference/Mathf.Atan2.html
              
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + camera.eulerAngles.y;
             //makes rotations smooth 
+            //https://docs.unity3d.com/ScriptReference/Mathf.SmoothDampAngle.html
+            //https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
